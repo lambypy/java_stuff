@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,6 +11,21 @@ public class Main {
         String name = firstName + " " + lastName;
 
         System.out.println(name);
+
+
+        // Task 2 - Numbers
+        int num1,num2;
+        num1 = 1;
+        num2 = 2;
+        System.out.println("sum: "+ (1+2));
+        double result = (double)num1/(double)num2;
+
+        int num3 = 8;
+        System.out.println("num3++: "+num3++);
+
+        System.out.println("num3 after: "+num3);
+
+        System.out.println("++num3: "+ ++num3);
 
 
         // Task 3 - User Input
