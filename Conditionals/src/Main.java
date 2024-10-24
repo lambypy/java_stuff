@@ -25,9 +25,26 @@ public class Main {
         //-----TASK 2------
         //
         Scanner numRequester1 = new Scanner(System.in);
-
         System.out.print("Enter number: ");
+        int num1 = numRequester1.nextInt();
+        double calculatedNum = num1 / 3.0;
+        int num = (int) Math.ceil(calculatedNum);
 
-
+        switch (num) {
+            case 1:
+                System.out.println("Spring");
+                break;
+            case 2:
+                System.out.println("Summer");
+                break;
+            case 3:
+                System.out.println("Autumn");
+                break;
+            case 4:
+                System.out.println("Winter");
+                break;
+            default:
+                System.out.println("Invalid number");
+        }
     }
 }
