@@ -11,7 +11,7 @@ public class LoopsExercises {
 
 
     public static void firstTaskSecondExercise(){
-        /* Removed semi-colon and added a println for clarity*/
+        /* Removed semicolon and added a println for clarity*/
         int x = 10;
         while (x > 0) {
             System.out.print(x--);
