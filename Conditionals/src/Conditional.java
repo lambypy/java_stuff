@@ -31,20 +31,11 @@ public class Main {
         int num = (int) Math.ceil(calculatedNum);
 
         switch (num) {
-            case 1:
-                System.out.println("Spring");
-                break;
-            case 2:
-                System.out.println("Summer");
-                break;
-            case 3:
-                System.out.println("Autumn");
-                break;
-            case 4:
-                System.out.println("Winter");
-                break;
-            default:
-                System.out.println("Invalid number");
+            case 1 -> System.out.println("Spring");
+            case 2 -> System.out.println("Summer");
+            case 3 -> System.out.println("Autumn");
+            case 4 -> System.out.println("Winter");
+            default -> System.out.println("Invalid number");
         }
     }
 }
