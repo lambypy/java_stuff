@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e057cbd-0367-4b27-ab4e-ff3d2a995d07" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/LoopsExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/LoopsExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conditionals/src/Conditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Conditionals/src/Conditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_intro/untitled/src/LoopsExercises.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,27 @@
     "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Conditional">
+    <configuration name="CalendarQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calendar.src.CalendarQuestion" />
+      <module name="java_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calendar.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Conditional" />
+      <module name="java_intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoopsExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="untitled.src.LoopsExercises" />
       <module name="java_intro" />
@@ -55,8 +76,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java_intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Conditional" />
+        <item itemvalue="Application.CalendarQuestion" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LoopsExercises" />
       </list>
     </recent_temporary>
@@ -71,5 +102,16 @@
       <updated>1729691804333</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
