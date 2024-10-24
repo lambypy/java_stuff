@@ -4,23 +4,30 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //-----TASK 1------
+        //
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        /*
+        System.out.println("Hello and welcome!");
         Scanner nameRequester1 = new Scanner(System.in);
 
         System.out.print("Enter number 1: ");
-
-        int num1 = nameRequester1.nextInt();     //String input
-
+        int num1 = nameRequester1.nextInt();     //input
         Scanner nameRequester2 = new Scanner(System.in);
         System.out.print("Enter number 2: ");
+        int num2 = nameRequester2.nextInt();     //input
 
-        int num2 = nameRequester2.nextInt();     //String input
-
-        System.out.printf("%d", Math.max(num1, num2));
-
+        System.out.printf("%d", Math.max(num1, num2));  //Compares the values
+        */
         // Press Shift+F10 or click the green arrow button in the gutter to run the code.
+
+        //-----TASK 2------
+        //
+        Scanner numRequester1 = new Scanner(System.in);
+
+        System.out.print("Enter number: ");
+
 
     }
 }
